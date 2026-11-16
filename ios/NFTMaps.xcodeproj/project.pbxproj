@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105F296733C6828F2F203549 /* RunTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D0B14342257283346D754B /* RunTracker.swift */; };
+		12F8072FB6D68EE99DFE308B /* PawMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E2BA75005E667DCAAA0BB /* PawMap.swift */; };
+		14CBFE1B1900877337D702E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67787DBAAD99B48DE636183E /* Theme.swift */; };
+		1B9AB06771559E3105883B30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76643EC43043E960EBD6B720 /* ProfileView.swift */; };
+		1CA206070B3A06287A5A6CA6 /* CatchGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06F2C8114321EC74C48681 /* CatchGameTests.swift */; };
+		1E03FEA7322631B12F16A9C5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3A2AA990B301E5EC2C1F6 /* Config.swift */; };
+		243906200D26E3CCD9AE91EE /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3940320991361E3C37A23E /* Baloo2-Bold.ttf */; };
+		267F222C7D13DCFBCDC885E5 /* BeVietnamPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2200B5608C303CC0DF6432AD /* BeVietnamPro-Regular.ttf */; };
+		26A22101FFEE294C3E4B7C6F /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45667ADD3082599D44D184 /* Stations.swift */; };
+		278C325DF915908FAF7543EC /* Keccak256.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98821AB09C672EDB1AB8F1 /* Keccak256.swift */; };
+		30412C034EAE2E7DCED15834 /* RunChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9D2BD613B3EA023E82A0C /* RunChallenge.swift */; };
+		330267B4215765FA2E128B27 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF86079A7FF4C42E8F72B187 /* CollectionView.swift */; };
+		357A047FBACCAC0C92734CC6 /* ABI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D516BAD267C4216C793193 /* ABI.swift */; };
+		372C7930FE6697B15019F33B /* EthereumSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D1C4E8BF988CCC25ED0E89 /* EthereumSigner.swift */; };
+		38B1445741C4ADE2C677017D /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6138C8494BAE605C6B4581D6 /* StationView.swift */; };
+		3B8EECCD30ED5EEA46F388E3 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543176E5BB4C1C43888A8E4E /* RouteService.swift */; };
+		3F1EF29C6B2955B871412754 /* RunSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69EB54D1DA4156BDC42A43 /* RunSummaryView.swift */; };
+		3F7DA84F651DDFD4A5CF9576 /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B92357055158AFCF9B223C6 /* Baloo2-ExtraBold.ttf */; };
+		494D5EC0C5584FFACCE00CBC /* RunNFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58627098E8CEAA537FE0249E /* RunNFT.swift */; };
+		49ED379FA9A36F0DBE535777 /* QuestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EE0E2DF216C150486B9A1 /* QuestsView.swift */; };
+		4E1565A14325A8CB8734EA92 /* JSONRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B3C5F89DB638E93E02DAE /* JSONRPC.swift */; };
+		4F4AF81FD1F69B59800C0B1A /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDCFF65D1BA156EDCD5C8D /* Hex.swift */; };
+		5669D44E509F4834DBE94EB0 /* PetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A160CE1936EE7A3A5AA67 /* PetViews.swift */; };
+		5AEBAE8785690067F4926209 /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = C8582791B070C57A5E8C49AE /* MapLibre */; };
+		5F23F416F56D384731B5D3DB /* P256K in Frameworks */ = {isa = PBXBuildFile; productRef = 96D138F36FDA4CA4A667FDA9 /* P256K */; };
+		60A7984E33CBEA76BDC062C5 /* CatchCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611BA1182672C2A24F789AC2 /* CatchCamera.swift */; };
+		63765702685B6D009D9690F3 /* NullMapsLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D007C4045DAEC4A88F1EBFF /* NullMapsLiveTests.swift */; };
+		641989506FF16A96F5B38EFE /* PetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827771F4EF3C6AE22BAA8E58 /* PetPhoto.swift */; };
+		64B3A654C381131E7B77FD0D /* MapMarkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50D40DB987E8EBB65CBA5E4 /* MapMarkers.swift */; };
+		6724E2452071404A35352B17 /* OFL-Baloo2-BeVietnamPro.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2871987A067A2700B12F47A0 /* OFL-Baloo2-BeVietnamPro.txt */; };
+		6F3B31C871A86349D3374530 /* WalletSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED0A97671971104235FF4C /* WalletSession.swift */; };
+		71DC64C705377A6B1FD7D77D /* BeVietnamPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E922B00794F229F1EF3A3AB6 /* BeVietnamPro-Bold.ttf */; };
+		72CBC10A2D18A6562746E547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906CFE0F739848A00103E157 /* Assets.xcassets */; };
+		72DFACB990EC93D1AC2827F4 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE21958D3CE2A0CA3A0ACA9 /* CoreTests.swift */; };
+		74802D49D91F6AD1D30017F3 /* RunFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFC5D50CAF9B4ECB84A94FC /* RunFlowView.swift */; };
+		7F49995FECDFFC99919211F3 /* RunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51621B055AC94515819D67BC /* RunView.swift */; };
+		8CA9D7EE264B84F28A50F36A /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DE449DA015ED50A9932DD13 /* Baloo2-SemiBold.ttf */; };
+		8CF2B03366BC975DE486B0B6 /* LocationPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B361924FEFA6AED5F96A577E /* LocationPrivacy.swift */; };
+		914C2DA0FC18B691A887965C /* PetDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6531C7B52B19B751F0DA4 /* PetDetector.swift */; };
+		9808E55BECE9D75B94A5951A /* PimlicoBundler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0115F294C2100E96B6CCBDD2 /* PimlicoBundler.swift */; };
+		9F616C0AAA010EDDF670D065 /* PawMapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DBD92DEB4D2D7989C648C4 /* PawMapStyle.swift */; };
+		A118225ADFDBE9E1008DF224 /* SmartAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B6E1BBF1967E7D413B201 /* SmartAccount.swift */; };
+		A297AAEFC60C7A56CBEB5CD0 /* NFTMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267E379A89C7D68BC7819B2 /* NFTMapsApp.swift */; };
+		ADC7DF7728092C06B448F8D8 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57854027EC00DFA0C157B833 /* KeychainStore.swift */; };
+		B4A72FADCE1B401B42C67672 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193CD470291401F8EECBB3CB /* MapViewModel.swift */; };
+		B6A49DC86B6B84AD49DF57CE /* AppShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A693E511DE6DD49EB3F6EEC9 /* AppShell.swift */; };
+		B930911E3F9B2E36DA56C224 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBC9CEA1DDB4656E211CD8E /* MapScreen.swift */; };
+		C3A30C1D7F2FDFC49D09F2B9 /* TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B4BEC44EBB5A32D505393 /* TourUITests.swift */; };
+		C8FC739F4D57F469B72E9125 /* CatchEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22C5553FC2802F5D3EFDED1 /* CatchEffects.swift */; };
+		CED3D50B0EE47EC4F3F7C6CD /* MintSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA738D1B7B60C74DF401CDA /* MintSheet.swift */; };
+		D0823FE8C19F4392992C6F5E /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D11A36E6520B47E578B166 /* KeyDerivation.swift */; };
+		D377548131F869DD0A1A5945 /* BeVietnamPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 661382764EEC662B1A1433BF /* BeVietnamPro-Medium.ttf */; };
+		D5E4374BB0EBD4C84B5438C1 /* MapNFTReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9715F8EC902704A55A085A5 /* MapNFTReader.swift */; };
+		E211CE99DF0AC9A1026A2014 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69462F093F014B606064EC82 /* GameTests.swift */; };
+		E51AD71F2A4C1CB36F3BC721 /* BeVietnamPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E36BCDDDE08C02F4D785847A /* BeVietnamPro-SemiBold.ttf */; };
+		E584A1C0691E19153B38472A /* FujiRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798FD849CCB4E0193396C4CD /* FujiRPC.swift */; };
+		E80A3D5D8EAD290B34880776 /* UserOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDB5768FFD6BE3884DEF9D3 /* UserOperation.swift */; };
+		E969A7BB5D04914D162591FB /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F90155535ADD5CE93817F7C /* GameRules.swift */; };
+		F101E4B66370C04AA88DC3A9 /* PetMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5E9A5B03606B748281492 /* PetMatcher.swift */; };
+		F2878E46125BDBC6BFE84277 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA580BA15E529E0AA7EF3E /* GameStore.swift */; };
+		FBF63D0A206A695C3D6C3DF6 /* CatchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579FDADE4C21475CC7746D2 /* CatchScreen.swift */; };
+		FD75FE37385704A9AAF1E801 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48B8677F70B858D0AA2DF1B /* LoginView.swift */; };
+		FDA5074EDD0A6CC8078ACB54 /* BeVietnamPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDA42DD6C16620E2781556E1 /* BeVietnamPro-ExtraBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A299A4B4354408EF05F857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F2932AF3935550E01E6093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF8D76A16ED717FB3E97791;
+			remoteInfo = NFTMaps;
+		};
+		E8595C93A3F469EF42463F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F2932AF3935550E01E6093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF8D76A16ED717FB3E97791;
+			remoteInfo = NFTMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0115F294C2100E96B6CCBDD2 /* PimlicoBundler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimlicoBundler.swift; sourceTree = "<group>"; };
+		1267E379A89C7D68BC7819B2 /* NFTMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTMapsApp.swift; sourceTree = "<group>"; };
+		193CD470291401F8EECBB3CB /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		1A2EE0E2DF216C150486B9A1 /* QuestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsView.swift; sourceTree = "<group>"; };
+		1A9B4BEC44EBB5A32D505393 /* TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourUITests.swift; sourceTree = "<group>"; };
+		2200B5608C303CC0DF6432AD /* BeVietnamPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Regular.ttf"; sourceTree = "<group>"; };
+		2871987A067A2700B12F47A0 /* OFL-Baloo2-BeVietnamPro.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OFL-Baloo2-BeVietnamPro.txt"; sourceTree = "<group>"; };
+		2BD3A2AA990B301E5EC2C1F6 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2E69EB54D1DA4156BDC42A43 /* RunSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSummaryView.swift; sourceTree = "<group>"; };
+		2F90155535ADD5CE93817F7C /* GameRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
+		31D0B14342257283346D754B /* RunTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTracker.swift; sourceTree = "<group>"; };
+		3797DA46E864F84DB7D43C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3C45667ADD3082599D44D184 /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		3DDB5768FFD6BE3884DEF9D3 /* UserOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOperation.swift; sourceTree = "<group>"; };
+		44D11A36E6520B47E578B166 /* KeyDerivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDerivation.swift; sourceTree = "<group>"; };
+		4B92357055158AFCF9B223C6 /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		51621B055AC94515819D67BC /* RunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunView.swift; sourceTree = "<group>"; };
+		543176E5BB4C1C43888A8E4E /* RouteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
+		57854027EC00DFA0C157B833 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		58627098E8CEAA537FE0249E /* RunNFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunNFT.swift; sourceTree = "<group>"; };
+		5C562124870876B0DE805BD0 /* NFTMapsUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NFTMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2B3C5F89DB638E93E02DAE /* JSONRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRPC.swift; sourceTree = "<group>"; };
+		5FE21958D3CE2A0CA3A0ACA9 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		611BA1182672C2A24F789AC2 /* CatchCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchCamera.swift; sourceTree = "<group>"; };
+		6138C8494BAE605C6B4581D6 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		661382764EEC662B1A1433BF /* BeVietnamPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Medium.ttf"; sourceTree = "<group>"; };
+		67787DBAAD99B48DE636183E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		69462F093F014B606064EC82 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		6CC6531C7B52B19B751F0DA4 /* PetDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetector.swift; sourceTree = "<group>"; };
+		6D007C4045DAEC4A88F1EBFF /* NullMapsLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullMapsLiveTests.swift; sourceTree = "<group>"; };
+		76643EC43043E960EBD6B720 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		798FD849CCB4E0193396C4CD /* FujiRPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiRPC.swift; sourceTree = "<group>"; };
+		7DE449DA015ED50A9932DD13 /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-SemiBold.ttf"; sourceTree = "<group>"; };
+		827771F4EF3C6AE22BAA8E58 /* PetPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPhoto.swift; sourceTree = "<group>"; };
+		906CFE0F739848A00103E157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91AD8B3AB16657E6A8B56311 /* NFTMapsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NFTMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B06F2C8114321EC74C48681 /* CatchGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGameTests.swift; sourceTree = "<group>"; };
+		A5EDCFF65D1BA156EDCD5C8D /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		A693E511DE6DD49EB3F6EEC9 /* AppShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell.swift; sourceTree = "<group>"; };
+		AF86079A7FF4C42E8F72B187 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		B0DBD92DEB4D2D7989C648C4 /* PawMapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawMapStyle.swift; sourceTree = "<group>"; };
+		B2C5E9A5B03606B748281492 /* PetMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMatcher.swift; sourceTree = "<group>"; };
+		B361924FEFA6AED5F96A577E /* LocationPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPrivacy.swift; sourceTree = "<group>"; };
+		B83A160CE1936EE7A3A5AA67 /* PetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViews.swift; sourceTree = "<group>"; };
+		BC7B6E1BBF1967E7D413B201 /* SmartAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAccount.swift; sourceTree = "<group>"; };
+		BD3940320991361E3C37A23E /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		BE98821AB09C672EDB1AB8F1 /* Keccak256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keccak256.swift; sourceTree = "<group>"; };
+		BEBC9CEA1DDB4656E211CD8E /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		C0D9D2BD613B3EA023E82A0C /* RunChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunChallenge.swift; sourceTree = "<group>"; };
+		C3D516BAD267C4216C793193 /* ABI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABI.swift; sourceTree = "<group>"; };
+		D2ED0A97671971104235FF4C /* WalletSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSession.swift; sourceTree = "<group>"; };
+		D48B8677F70B858D0AA2DF1B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D579FDADE4C21475CC7746D2 /* CatchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchScreen.swift; sourceTree = "<group>"; };
+		DF3D45B81B0BD93B197C2A31 /* NFTMaps.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NFTMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22E2BA75005E667DCAAA0BB /* PawMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawMap.swift; sourceTree = "<group>"; };
+		E36BCDDDE08C02F4D785847A /* BeVietnamPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		E50D40DB987E8EBB65CBA5E4 /* MapMarkers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkers.swift; sourceTree = "<group>"; };
+		E6BA580BA15E529E0AA7EF3E /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		E922B00794F229F1EF3A3AB6 /* BeVietnamPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Bold.ttf"; sourceTree = "<group>"; };
+		EB75A9264EDA4230517EBAE2 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		EDA42DD6C16620E2781556E1 /* BeVietnamPro-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EFFC5D50CAF9B4ECB84A94FC /* RunFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunFlowView.swift; sourceTree = "<group>"; };
+		F22C5553FC2802F5D3EFDED1 /* CatchEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchEffects.swift; sourceTree = "<group>"; };
+		F2D1C4E8BF988CCC25ED0E89 /* EthereumSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumSigner.swift; sourceTree = "<group>"; };
+		F9715F8EC902704A55A085A5 /* MapNFTReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNFTReader.swift; sourceTree = "<group>"; };
+		FEA738D1B7B60C74DF401CDA /* MintSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38455D58E2AD337A592ABE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F23F416F56D384731B5D3DB /* P256K in Frameworks */,
+				5AEBAE8785690067F4926209 /* MapLibre in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9BE5A63D2B7F499A742EDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A693E511DE6DD49EB3F6EEC9 /* AppShell.swift */,
+				AF86079A7FF4C42E8F72B187 /* CollectionView.swift */,
+				D48B8677F70B858D0AA2DF1B /* LoginView.swift */,
+				BEBC9CEA1DDB4656E211CD8E /* MapScreen.swift */,
+				193CD470291401F8EECBB3CB /* MapViewModel.swift */,
+				FEA738D1B7B60C74DF401CDA /* MintSheet.swift */,
+				B83A160CE1936EE7A3A5AA67 /* PetViews.swift */,
+				76643EC43043E960EBD6B720 /* ProfileView.swift */,
+				1A2EE0E2DF216C150486B9A1 /* QuestsView.swift */,
+				6138C8494BAE605C6B4581D6 /* StationView.swift */,
+				67787DBAAD99B48DE636183E /* Theme.swift */,
+				BE9F1642E38874C21B9CF931 /* Catch */,
+				9E630659736C3E1BE007C187 /* Map */,
+				815AB16233FC1753C802BD6B /* Run */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E610B915BCAFCDEDF624019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3D45B81B0BD93B197C2A31 /* NFTMaps.app */,
+				91AD8B3AB16657E6A8B56311 /* NFTMapsTests.xctest */,
+				5C562124870876B0DE805BD0 /* NFTMapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6164E371F8C3EFF968C86E5A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				EB75A9264EDA4230517EBAE2 /* App.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		634AD91B9F6DE07BC421B93E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				57854027EC00DFA0C157B833 /* KeychainStore.swift */,
+				D2ED0A97671971104235FF4C /* WalletSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		6FDD82A92362553497C8B897 /* NFTMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B06F2C8114321EC74C48681 /* CatchGameTests.swift */,
+				5FE21958D3CE2A0CA3A0ACA9 /* CoreTests.swift */,
+				69462F093F014B606064EC82 /* GameTests.swift */,
+				6D007C4045DAEC4A88F1EBFF /* NullMapsLiveTests.swift */,
+			);
+			path = NFTMapsTests;
+			sourceTree = "<group>";
+		};
+		815AB16233FC1753C802BD6B /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC5D50CAF9B4ECB84A94FC /* RunFlowView.swift */,
+				2E69EB54D1DA4156BDC42A43 /* RunSummaryView.swift */,
+				51621B055AC94515819D67BC /* RunView.swift */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+		996A866725DF4E1FEB66BE2A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3D516BAD267C4216C793193 /* ABI.swift */,
+				F2D1C4E8BF988CCC25ED0E89 /* EthereumSigner.swift */,
+				798FD849CCB4E0193396C4CD /* FujiRPC.swift */,
+				A5EDCFF65D1BA156EDCD5C8D /* Hex.swift */,
+				5F2B3C5F89DB638E93E02DAE /* JSONRPC.swift */,
+				BE98821AB09C672EDB1AB8F1 /* Keccak256.swift */,
+				44D11A36E6520B47E578B166 /* KeyDerivation.swift */,
+				B361924FEFA6AED5F96A577E /* LocationPrivacy.swift */,
+				F9715F8EC902704A55A085A5 /* MapNFTReader.swift */,
+				6CC6531C7B52B19B751F0DA4 /* PetDetector.swift */,
+				B2C5E9A5B03606B748281492 /* PetMatcher.swift */,
+				827771F4EF3C6AE22BAA8E58 /* PetPhoto.swift */,
+				0115F294C2100E96B6CCBDD2 /* PimlicoBundler.swift */,
+				543176E5BB4C1C43888A8E4E /* RouteService.swift */,
+				58627098E8CEAA537FE0249E /* RunNFT.swift */,
+				BC7B6E1BBF1967E7D413B201 /* SmartAccount.swift */,
+				3C45667ADD3082599D44D184 /* Stations.swift */,
+				3DDB5768FFD6BE3884DEF9D3 /* UserOperation.swift */,
+				CB5554C11EFB699799CAFDE1 /* Game */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9E630659736C3E1BE007C187 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E50D40DB987E8EBB65CBA5E4 /* MapMarkers.swift */,
+				E22E2BA75005E667DCAAA0BB /* PawMap.swift */,
+				B0DBD92DEB4D2D7989C648C4 /* PawMapStyle.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		BE9F1642E38874C21B9CF931 /* Catch */ = {
+			isa = PBXGroup;
+			children = (
+				611BA1182672C2A24F789AC2 /* CatchCamera.swift */,
+				F22C5553FC2802F5D3EFDED1 /* CatchEffects.swift */,
+				D579FDADE4C21475CC7746D2 /* CatchScreen.swift */,
+			);
+			path = Catch;
+			sourceTree = "<group>";
+		};
+		C6E8330C26EB360EBFDD5A97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3A251C78A11802C6217B8 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8C3A251C78A11802C6217B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD3940320991361E3C37A23E /* Baloo2-Bold.ttf */,
+				4B92357055158AFCF9B223C6 /* Baloo2-ExtraBold.ttf */,
+				7DE449DA015ED50A9932DD13 /* Baloo2-SemiBold.ttf */,
+				E922B00794F229F1EF3A3AB6 /* BeVietnamPro-Bold.ttf */,
+				EDA42DD6C16620E2781556E1 /* BeVietnamPro-ExtraBold.ttf */,
+				661382764EEC662B1A1433BF /* BeVietnamPro-Medium.ttf */,
+				2200B5608C303CC0DF6432AD /* BeVietnamPro-Regular.ttf */,
+				E36BCDDDE08C02F4D785847A /* BeVietnamPro-SemiBold.ttf */,
+				2871987A067A2700B12F47A0 /* OFL-Baloo2-BeVietnamPro.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CAB38D0EFAD967830F73FAB7 /* NFTMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9B4BEC44EBB5A32D505393 /* TourUITests.swift */,
+			);
+			path = NFTMapsUITests;
+			sourceTree = "<group>";
+		};
+		CB5554C11EFB699799CAFDE1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2F90155535ADD5CE93817F7C /* GameRules.swift */,
+				E6BA580BA15E529E0AA7EF3E /* GameStore.swift */,
+				C0D9D2BD613B3EA023E82A0C /* RunChallenge.swift */,
+				31D0B14342257283346D754B /* RunTracker.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		CC420035970D882FB53B8A23 = {
+			isa = PBXGroup;
+			children = (
+				6164E371F8C3EFF968C86E5A /* Config */,
+				FFF6CE80159D04D9569B38AE /* NFTMaps */,
+				6FDD82A92362553497C8B897 /* NFTMapsTests */,
+				CAB38D0EFAD967830F73FAB7 /* NFTMapsUITests */,
+				4E610B915BCAFCDEDF624019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF6CE80159D04D9569B38AE /* NFTMaps */ = {
+			isa = PBXGroup;
+			children = (
+				906CFE0F739848A00103E157 /* Assets.xcassets */,
+				2BD3A2AA990B301E5EC2C1F6 /* Config.swift */,
+				3797DA46E864F84DB7D43C41 /* Info.plist */,
+				1267E379A89C7D68BC7819B2 /* NFTMapsApp.swift */,
+				996A866725DF4E1FEB66BE2A /* Core */,
+				C6E8330C26EB360EBFDD5A97 /* Resources */,
+				634AD91B9F6DE07BC421B93E /* Session */,
+				1D9BE5A63D2B7F499A742EDD /* Views */,
+			);
+			path = NFTMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF8D76A16ED717FB3E97791 /* NFTMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F67DEE77BA7652F7FDEFCDE /* Build configuration list for PBXNativeTarget "NFTMaps" */;
+			buildPhases = (
+				0ABE0D0846C9ED07FA84B0F3 /* Sources */,
+				9F2B113B59F38725C98B8359 /* Resources */,
+				A38455D58E2AD337A592ABE3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTMaps;
+			packageProductDependencies = (
+				96D138F36FDA4CA4A667FDA9 /* P256K */,
+				C8582791B070C57A5E8C49AE /* MapLibre */,
+			);
+			productName = NFTMaps;
+			productReference = DF3D45B81B0BD93B197C2A31 /* NFTMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01579170AA2BDACE874BEDF /* NFTMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1303B9E9E4FD0D1B2BAE3ED6 /* Build configuration list for PBXNativeTarget "NFTMapsTests" */;
+			buildPhases = (
+				43036408676A2BA0E689BAAB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7FA1092D138BFEEF1FE03E /* PBXTargetDependency */,
+			);
+			name = NFTMapsTests;
+			packageProductDependencies = (
+			);
+			productName = NFTMapsTests;
+			productReference = 91AD8B3AB16657E6A8B56311 /* NFTMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBFD97F2566CFC45EC5FB0A9 /* NFTMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9191521552FF3D06F9031A7C /* Build configuration list for PBXNativeTarget "NFTMapsUITests" */;
+			buildPhases = (
+				1AFB973363724882FA0A9F18 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C9EC09F6A7F356C0BC3E2C /* PBXTargetDependency */,
+			);
+			name = NFTMapsUITests;
+			packageProductDependencies = (
+			);
+			productName = NFTMapsUITests;
+			productReference = 5C562124870876B0DE805BD0 /* NFTMapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F2932AF3935550E01E6093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAF8D76A16ED717FB3E97791 = {
+						ProvisioningStyle = Automatic;
+					};
+					CBFD97F2566CFC45EC5FB0A9 = {
+						TestTargetID = AAF8D76A16ED717FB3E97791;
+					};
+				};
+			};
+			buildConfigurationList = B4296B7ED41E6FC6051DDB2D /* Build configuration list for PBXProject "NFTMaps" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CC420035970D882FB53B8A23;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BF052E1717B46DF91AFF6A10 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+				5844876BC72F1E17A8DA9EC4 /* XCRemoteSwiftPackageReference "swift-secp256k1" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4E610B915BCAFCDEDF624019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF8D76A16ED717FB3E97791 /* NFTMaps */,
+				C01579170AA2BDACE874BEDF /* NFTMapsTests */,
+				CBFD97F2566CFC45EC5FB0A9 /* NFTMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2B113B59F38725C98B8359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CBC10A2D18A6562746E547 /* Assets.xcassets in Resources */,
+				243906200D26E3CCD9AE91EE /* Baloo2-Bold.ttf in Resources */,
+				3F7DA84F651DDFD4A5CF9576 /* Baloo2-ExtraBold.ttf in Resources */,
+				8CA9D7EE264B84F28A50F36A /* Baloo2-SemiBold.ttf in Resources */,
+				71DC64C705377A6B1FD7D77D /* BeVietnamPro-Bold.ttf in Resources */,
+				FDA5074EDD0A6CC8078ACB54 /* BeVietnamPro-ExtraBold.ttf in Resources */,
+				D377548131F869DD0A1A5945 /* BeVietnamPro-Medium.ttf in Resources */,
+				267F222C7D13DCFBCDC885E5 /* BeVietnamPro-Regular.ttf in Resources */,
+				E51AD71F2A4C1CB36F3BC721 /* BeVietnamPro-SemiBold.ttf in Resources */,
+				6724E2452071404A35352B17 /* OFL-Baloo2-BeVietnamPro.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ABE0D0846C9ED07FA84B0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357A047FBACCAC0C92734CC6 /* ABI.swift in Sources */,
+				B6A49DC86B6B84AD49DF57CE /* AppShell.swift in Sources */,
+				60A7984E33CBEA76BDC062C5 /* CatchCamera.swift in Sources */,
+				C8FC739F4D57F469B72E9125 /* CatchEffects.swift in Sources */,
+				FBF63D0A206A695C3D6C3DF6 /* CatchScreen.swift in Sources */,
+				330267B4215765FA2E128B27 /* CollectionView.swift in Sources */,
+				1E03FEA7322631B12F16A9C5 /* Config.swift in Sources */,
+				372C7930FE6697B15019F33B /* EthereumSigner.swift in Sources */,
+				E584A1C0691E19153B38472A /* FujiRPC.swift in Sources */,
+				E969A7BB5D04914D162591FB /* GameRules.swift in Sources */,
+				F2878E46125BDBC6BFE84277 /* GameStore.swift in Sources */,
+				4F4AF81FD1F69B59800C0B1A /* Hex.swift in Sources */,
+				4E1565A14325A8CB8734EA92 /* JSONRPC.swift in Sources */,
+				278C325DF915908FAF7543EC /* Keccak256.swift in Sources */,
+				D0823FE8C19F4392992C6F5E /* KeyDerivation.swift in Sources */,
+				ADC7DF7728092C06B448F8D8 /* KeychainStore.swift in Sources */,
+				8CF2B03366BC975DE486B0B6 /* LocationPrivacy.swift in Sources */,
+				FD75FE37385704A9AAF1E801 /* LoginView.swift in Sources */,
+				64B3A654C381131E7B77FD0D /* MapMarkers.swift in Sources */,
+				D5E4374BB0EBD4C84B5438C1 /* MapNFTReader.swift in Sources */,
+				B930911E3F9B2E36DA56C224 /* MapScreen.swift in Sources */,
+				B4A72FADCE1B401B42C67672 /* MapViewModel.swift in Sources */,
+				CED3D50B0EE47EC4F3F7C6CD /* MintSheet.swift in Sources */,
+				A297AAEFC60C7A56CBEB5CD0 /* NFTMapsApp.swift in Sources */,
+				12F8072FB6D68EE99DFE308B /* PawMap.swift in Sources */,
+				9F616C0AAA010EDDF670D065 /* PawMapStyle.swift in Sources */,
+				914C2DA0FC18B691A887965C /* PetDetector.swift in Sources */,
+				F101E4B66370C04AA88DC3A9 /* PetMatcher.swift in Sources */,
+				641989506FF16A96F5B38EFE /* PetPhoto.swift in Sources */,
+				5669D44E509F4834DBE94EB0 /* PetViews.swift in Sources */,
+				9808E55BECE9D75B94A5951A /* PimlicoBundler.swift in Sources */,
+				1B9AB06771559E3105883B30 /* ProfileView.swift in Sources */,
+				49ED379FA9A36F0DBE535777 /* QuestsView.swift in Sources */,
+				3B8EECCD30ED5EEA46F388E3 /* RouteService.swift in Sources */,
+				30412C034EAE2E7DCED15834 /* RunChallenge.swift in Sources */,
+				74802D49D91F6AD1D30017F3 /* RunFlowView.swift in Sources */,
+				494D5EC0C5584FFACCE00CBC /* RunNFT.swift in Sources */,
+				3F1EF29C6B2955B871412754 /* RunSummaryView.swift in Sources */,
+				105F296733C6828F2F203549 /* RunTracker.swift in Sources */,
+				7F49995FECDFFC99919211F3 /* RunView.swift in Sources */,
+				A118225ADFDBE9E1008DF224 /* SmartAccount.swift in Sources */,
+				38B1445741C4ADE2C677017D /* StationView.swift in Sources */,
+				26A22101FFEE294C3E4B7C6F /* Stations.swift in Sources */,
+				14CBFE1B1900877337D702E0 /* Theme.swift in Sources */,
+				E80A3D5D8EAD290B34880776 /* UserOperation.swift in Sources */,
+				6F3B31C871A86349D3374530 /* WalletSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFB973363724882FA0A9F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A30C1D7F2FDFC49D09F2B9 /* TourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43036408676A2BA0E689BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA206070B3A06287A5A6CA6 /* CatchGameTests.swift in Sources */,
+				72DFACB990EC93D1AC2827F4 /* CoreTests.swift in Sources */,
+				E211CE99DF0AC9A1026A2014 /* GameTests.swift in Sources */,
+				63765702685B6D009D9690F3 /* NullMapsLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7FA1092D138BFEEF1FE03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF8D76A16ED717FB3E97791 /* NFTMaps */;
+			targetProxy = 41A299A4B4354408EF05F857 /* PBXContainerItemProxy */;
+		};
+		57C9EC09F6A7F356C0BC3E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF8D76A16ED717FB3E97791 /* NFTMaps */;
+			targetProxy = E8595C93A3F469EF42463F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C93D55E67C15A49A9D18A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFTMaps.app/NFTMaps";
+			};
+			name = Release;
+		};
+		3B6E379871CAFEE068BCABB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		65C67AD9520926BA1F996E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFTMaps;
+			};
+			name = Release;
+		};
+		7D91143F964EA813E8554315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB75A9264EDA4230517EBAE2 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTMaps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT Maps";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NFT Maps dùng camera để chụp chó/mèo bạn gặp và mint thành NFT.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "NFT Maps gọi NullMaps chạy trên máy Mac trong mạng nhà để dẫn đường.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NFT Maps dùng vị trí để hiện bạn trên bản đồ và mint NFT tại chỗ bạn đứng.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "NFT Maps đếm bước chân khi bạn chạy và cho nhiệm vụ bước chân mỗi ngày.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NFT Maps dùng ảnh bạn chọn để chơi màn bắt, nhận bé hoặc báo bé cần giúp.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D849384E91F0971AAAD39614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFTMaps.app/NFTMaps";
+			};
+			name = Debug;
+		};
+		E1807556FB8807A3084A0F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E20E6F10465733A1AFF4C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB75A9264EDA4230517EBAE2 /* App.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTMaps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NFT Maps";
+				INFOPLIST_KEY_NSCameraUsageDescription = "NFT Maps dùng camera để chụp chó/mèo bạn gặp và mint thành NFT.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "NFT Maps gọi NullMaps chạy trên máy Mac trong mạng nhà để dẫn đường.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NFT Maps dùng vị trí để hiện bạn trên bản đồ và mint NFT tại chỗ bạn đứng.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "NFT Maps đếm bước chân khi bạn chạy và cho nhiệm vụ bước chân mỗi ngày.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NFT Maps dùng ảnh bạn chọn để chơi màn bắt, nhận bé hoặc báo bé cần giúp.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB532C462A5680763DED1EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackbuilder.nftmaps.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NFTMaps;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1303B9E9E4FD0D1B2BAE3ED6 /* Build configuration list for PBXNativeTarget "NFTMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D849384E91F0971AAAD39614 /* Debug */,
+				0C93D55E67C15A49A9D18A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9191521552FF3D06F9031A7C /* Build configuration list for PBXNativeTarget "NFTMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB532C462A5680763DED1EBB /* Debug */,
+				65C67AD9520926BA1F996E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F67DEE77BA7652F7FDEFCDE /* Build configuration list for PBXNativeTarget "NFTMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D91143F964EA813E8554315 /* Debug */,
+				E20E6F10465733A1AFF4C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4296B7ED41E6FC6051DDB2D /* Build configuration list for PBXProject "NFTMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6E379871CAFEE068BCABB8 /* Debug */,
+				E1807556FB8807A3084A0F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5844876BC72F1E17A8DA9EC4 /* XCRemoteSwiftPackageReference "swift-secp256k1" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/21-DOT-DEV/swift-secp256k1";
+			requirement = {
+				kind = exactVersion;
+				version = 0.25.0;
+			};
+		};
+		BF052E1717B46DF91AFF6A10 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				kind = exactVersion;
+				version = 6.30.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96D138F36FDA4CA4A667FDA9 /* P256K */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5844876BC72F1E17A8DA9EC4 /* XCRemoteSwiftPackageReference "swift-secp256k1" */;
+			productName = P256K;
+		};
+		C8582791B070C57A5E8C49AE /* MapLibre */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF052E1717B46DF91AFF6A10 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = MapLibre;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80F2932AF3935550E01E6093 /* Project object */;
+}

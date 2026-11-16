@@ -1,0 +1,20 @@
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/*/31337/
+.env
+
+# Xcode
+ios/build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+.DS_Store
+
+# Key local (Pimlico, NullMaps)
+ios/Config/Local.xcconfig
+
+# Demo videos and local agent settings
+*.mp4
+.claude/

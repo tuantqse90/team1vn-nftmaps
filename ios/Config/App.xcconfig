@@ -1,0 +1,12 @@
+// Cấu hình chung, không chứa bí mật. Key thật để trong Local.xcconfig (gitignored, xem Local.xcconfig.example).
+// Trong xcconfig, "//" là chú thích nên URL phải viết http:/$()/...
+
+PIMLICO_API_KEY =
+PIMLICO_POLICY_ID =
+
+// NullMaps tự host chạy trên máy Mac (gateway :8088). Simulator gọi thẳng 127.0.0.1.
+// iPhone thật: đổi thành http:/$()/<tên-mac>.local:8010 (adapter mở ra mạng LAN).
+NULLMAPS_URL = http:/$()/127.0.0.1:8088
+NULLMAPS_API_KEY =
+
+#include? "Local.xcconfig"

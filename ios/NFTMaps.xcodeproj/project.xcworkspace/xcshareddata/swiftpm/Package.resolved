@@ -1,0 +1,24 @@
+{
+  "originHash" : "d6593b6e9beffbe9e63fb041de77fa0681794d5a128c182f23211538c729f3dc",
+  "pins" : [
+    {
+      "identity" : "maplibre-gl-native-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maplibre/maplibre-gl-native-distribution",
+      "state" : {
+        "revision" : "8efc83b8ae7f28e6ff82ec17ec1b2f3f4ec84fdc",
+        "version" : "6.30.0"
+      }
+    },
+    {
+      "identity" : "swift-secp256k1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/21-DOT-DEV/swift-secp256k1",
+      "state" : {
+        "revision" : "0d394635c3fdd568acfc85da9c887f574700662c",
+        "version" : "0.25.0"
+      }
+    }
+  ],
+  "version" : 3
+}
